@@ -1,8 +1,9 @@
+{% extends 'base.html' %}
 {% block content %}
 {% load static %}
 <link rel="stylesheet" href="{% static 'css/style.css' %}">
 <style>
-  /*agrege este estilo espero y no te moleste es para quitar los puntos en la lsita y se vea mejor */
+  
   #li_text{
       list-style: none;
     }
@@ -23,11 +24,14 @@
             <li id="li_text">
               {{ post.descripcion }}
           </li>
+          <li id="li_text">
+            {{post.infromacion}}
+        </li>
             {% endfor %}
         </ul>   
 
-      <p style="color:darkred; font-size:100px">Changing Styles</p>
-      <p style="color:darkturquoise; font-size:100px">Patricia Garcia Almanza</p>
+      <p style="color:indianred; font-size:100px">Changing Styles</p>
+      <p style="color:rgb(209, 143, 0); font-size:100px">Patricia Garcia Almanza</p>
       <img src="{% static 'imagen/imagen2.jpeg' %}">
       
     </center>

@@ -4,8 +4,8 @@
     padding-left: 11em;
     font-family: Georgia, "Times New Roman",
           Times, serif;
-    color: purple;
-    background-color: #d8da3d 
+    color:rgb(112, 25, 39);
+    background-color:darksalmon
    
   }
 
@@ -30,9 +30,9 @@
     text-decoration: none }
   
   a:link {
-    color: blue }
+    color:coral }
   a:visited {
-    color: purple }
+    color:brown }
   address {
     margin-top: 1em;
     padding-top: 1em;
